@@ -1,0 +1,48 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+body{
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card {
+    padding: 2em;
+}
+
+.read-the-docs {
+    color: #888;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+	background-color:rgba(31, 31, 31, 0.719);
+}
+
+nav > div {
+    display: flex;
+    color: aquamarine;
+}
+
+.main-content{
+	background-image:url("./assets/react-icon-large.png");
+	background-repeat: no-repeat;
+    background-position-x: right;
+	background-position-y: center;
+}
+
+.main-content > ul {
+    text-align: initial;
+	list-style:inside;
+	letter-spacing: normal;
+}
+
+.main-content > ul li::marker {
+	font-size: 1.4em;
+	color: aquamarine;
+}
